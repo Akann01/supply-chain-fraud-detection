@@ -1,0 +1,12 @@
+supplier_id,risk,signals,level
+30,0.98,"new_registration, price_deviation, shared_address, shared_bank_account",HIGH
+41,0.98,"new_registration, price_deviation, shared_address, shared_bank_account",HIGH
+52,0.97,"new_registration, price_deviation, shared_bank_account",HIGH
+15,0.93,"bid_rigging, shared_address",HIGH
+20,0.93,"bid_rigging, shared_address",HIGH
+25,0.92,bid_rigging,HIGH
+18,0.92,"invoice_before_delivery, late_delivery",HIGH
+2,0.86,invoice_po_mismatch,HIGH
+12,0.48,price_deviation,MEDIUM
+40,0.12,shared_address,LOW
+55,0.12,shared_address,LOW

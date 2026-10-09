@@ -1,0 +1,6 @@
+hypothesis_id,root_cause,suppliers,origin_tier,exposed_tier1,downstream_nodes,paths
+H1,shell_ring,"30,41,52",3,4,"4,12",30 -> 12 -> 4 -> company | 41 -> 12 -> 4 -> company | 52 -> 12 -> 4 -> company
+H2,bid_rigging_cluster,"15,20,25",2,7,7,15 -> 7 -> company | 20 -> 7 -> company | 25 -> 7 -> company
+H3,over_billing,2,1,2,,2 -> company
+H4,timing_manipulation,18,2,6,6,18 -> 6 -> company
+H5,price_pass_through,12,3,4,4,12 -> 4 -> company

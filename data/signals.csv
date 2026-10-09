@@ -1,0 +1,23 @@
+supplier_id,signal_type,strength,evidence
+2,invoice_po_mismatch,0.86,"3 of 7 purchase orders (43%) were invoiced above the PO quantity or price, on average 19% over; about 414,450 billed beyond what was ordered"
+30,shared_bank_account,0.9,"Receives payment into bank account ACC5030, which is also used by supplier(s) 41, 52"
+41,shared_bank_account,0.9,"Receives payment into bank account ACC5030, which is also used by supplier(s) 30, 52"
+52,shared_bank_account,0.9,"Receives payment into bank account ACC5030, which is also used by supplier(s) 30, 41"
+15,shared_address,0.4,"Registered at '15 Industrial Estate, Indore', the same address as supplier(s) 20"
+20,shared_address,0.4,"Registered at '15 Industrial Estate, Indore', the same address as supplier(s) 15"
+30,shared_address,0.4,"Registered at '30 Industrial Estate, Chennai', the same address as supplier(s) 41"
+41,shared_address,0.4,"Registered at '30 Industrial Estate, Chennai', the same address as supplier(s) 30"
+40,shared_address,0.4,"Registered at '40 Industrial Estate, Nashik', the same address as supplier(s) 55"
+55,shared_address,0.4,"Registered at '40 Industrial Estate, Nashik', the same address as supplier(s) 40"
+30,new_registration,0.62,Registered only 112 days before the latest order (2026-04-25)
+41,new_registration,0.59,Registered only 144 days before the latest order (2026-03-24)
+52,new_registration,0.62,Registered only 114 days before the latest order (2026-04-23)
+15,bid_rigging,0.92,"Bids were within 3% of suppliers [20, 25] in 6 tenders (issued by supplier(s) [7]); the win rotated across 3 of 3 ring members"
+20,bid_rigging,0.92,"Bids were within 3% of suppliers [15, 25] in 6 tenders (issued by supplier(s) [7]); the win rotated across 3 of 3 ring members"
+25,bid_rigging,0.92,"Bids were within 3% of suppliers [15, 20] in 6 tenders (issued by supplier(s) [7]); the win rotated across 3 of 3 ring members"
+12,price_deviation,0.6,"8 of 8 purchase orders (100%) were priced above the market median for the same item, on average 26% higher; about 316,608 paid above market"
+30,price_deviation,1.0,"6 of 6 purchase orders (100%) were priced above the market median for the same item, on average 75% higher; about 8,493,464 paid above market"
+41,price_deviation,1.0,"6 of 6 purchase orders (100%) were priced above the market median for the same item, on average 79% higher; about 619,838 paid above market"
+52,price_deviation,1.0,"6 of 6 purchase orders (100%) were priced above the market median for the same item, on average 84% higher; about 948,617 paid above market"
+18,invoice_before_delivery,0.8,3 of 8 invoices were dated before the goods arrived (up to 14 days early)
+18,late_delivery,1.0,"8 of 8 deliveries (100%) arrived more than 7 days late, on average 22 days after the expected date"

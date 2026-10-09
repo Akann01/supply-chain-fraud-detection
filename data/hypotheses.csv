@@ -1,0 +1,6 @@
+hypothesis_id,root_cause,suppliers,confidence,explanation
+H1,shell_ring,"30,41,52",0.98,Shell-company ring of 3 suppliers (Tier 3) sharing bank account ACC5030; some share a registered address; all are newly registered; their prices are far above market. They sell to supplier(s) [12]
+H2,bid_rigging_cluster,"15,20,25",0.93,Bid-rigging cluster of 3 suppliers (Tier 2) with near-identical bids in 6 tenders issued by supplier(s) [np.int64(7)]; members also share a registered address
+H3,over_billing,2,0.86,"Supplier 2 over-bills its buyer: 3 of 7 purchase orders (43%) were invoiced above the PO quantity or price, on average 19% over; about 414,450 billed beyond what was ordered"
+H4,timing_manipulation,18,0.92,"Supplier 18 shows delivery-timing manipulation: 3 of 8 invoices were dated before the goods arrived (up to 14 days early); 8 of 8 deliveries (100%) arrived more than 7 days late, on average 22 days after the expected date"
+H5,price_pass_through,12,0.48,"Supplier 12 charges inflated prices and buys from shell-ring supplier(s) [30, 41, 52]; the inflation is likely passed through. Status: review (cannot tell from the data whether it knew)"

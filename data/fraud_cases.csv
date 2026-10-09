@@ -1,0 +1,8 @@
+case_id,fraud_type,suppliers,origin_tier,chain
+1,Shell trio + inflated prices (passed through clean Tier-1),"30,41,52",3,"30,41,52 -> 12 -> 4 -> company"
+2,Bid-rigging ring (2 members share an address),"15,20,25",2,"15,20,25 -> 7 -> company"
+3,Invoice over-billing,2,1,2 -> company
+4,Invoicing before delivery + late deliveries,18,2,18 -> 6 -> company
+5,DECOY: shared address only (innocent),"40,55",3,
+6,DECOY: one price spike only (innocent),3,1,
+7,DECOY: one late delivery only (innocent),5,1,
